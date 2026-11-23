@@ -1,0 +1,79 @@
+/*
+Theme Name:  extendable Child Theme
+Theme URI:   https://wordpress.org/themes/extendable/
+Author:      smoe
+Author URI:  https://rains.emiliavigga.dk
+Description: Child theme based on extendable.
+Version:     1.1.0
+Template:    extendable
+*/
+
+/* ===== Neue Haas Grotesk ===== */
+@font-face {
+  font-family: "Haas";
+  src: url("fonts/neuehaasgrottext-65medium-trial.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Haas";
+  src: url("fonts/neuehaasgrotdispround-75bold-trial.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Haas";
+  src: url("fonts/haas-thin.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ===== LED Counter 7 ===== */
+@font-face {
+  font-family: "LED";
+  src: url("fonts/led_counter-7.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ===== Klasser ===== */
+.font-haas,
+.font-haas * {
+  font-family: "Haas", sans-serif !important;
+  font-weight: 500 !important;
+}
+
+.font-haas-bold,
+.font-haas-bold * {
+  font-family: "Haas", sans-serif !important;
+  font-weight: 700 !important;
+}
+
+.font-haas-thin,
+.font-haas-thin * {
+  font-family: "Haas", sans-serif !important;
+  font-weight: 100 !important;
+}
+
+.font-led,
+.font-led * {
+  font-family: "LED", monospace !important;
+}
+
+/* ===== Klasser & Størrelser ===== */
+
+.lille-h1 h1 {
+  font-size: 32px;
+}
+
+@media (max-width: 767px) {
+  .lille-h1 h1 {
+    font-size: 24px;
+  }
+}

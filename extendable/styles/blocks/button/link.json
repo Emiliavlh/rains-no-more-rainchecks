@@ -1,0 +1,32 @@
+{
+	"$schema": "https://schemas.wp.org/wp/7.0/theme.json",
+	"version": 3,
+	"title": "Link",
+	"slug": "ext-link",
+	"blockTypes": [
+		"core/button",
+		"woocommerce/product-button"
+	],
+	"styles": {
+		"color": {
+			"text": "var(--wp--custom--color--text-brand)",
+			"background": "transparent"
+		},
+		"typography": {
+			"textDecoration": "underline"
+		},
+		"border": {
+			"width": "0"
+		},
+		"spacing": {
+			"padding": {
+				"top": "0",
+				"bottom": "0",
+				"left": "0",
+				"right": "0"
+			}
+		},
+		"shadow": "none",
+		"css": "&:hover { color: var(--wp--custom--color--text-brand); background-color: transparent; text-decoration: underline dashed; } &:active { color: var(--wp--custom--color--text-brand); background-color: transparent; text-decoration: none; }"
+	}
+}

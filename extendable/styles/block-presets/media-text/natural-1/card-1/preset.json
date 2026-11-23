@@ -1,0 +1,63 @@
+{
+	"$schema": "https://schemas.wp.org/wp/7.0/theme.json",
+	"version": 3,
+	"title": "Item Card 1",
+	"slug": "ext-preset--media-text--natural-1--card-1",
+	"blockTypes": [
+		"core/media-text"
+	],
+	"styles": {
+		"spacing": {
+			"padding": {
+				"top": "0",
+				"right": "0",
+				"bottom": "0",
+				"left": "0"
+			}
+		},
+		"blocks": {
+			"core/group": {
+				"dimensions": {
+					"minHeight": "100%"
+				}
+			},
+			"core/heading": {
+				"typography": {
+					"fontSize": "var(--wp--custom--text--heading-4--font-size)",
+					"fontWeight": "var(--wp--custom--text--heading-4--font-weight)",
+					"lineHeight": "var(--wp--custom--text--heading-4--line-height)",
+					"letterSpacing": "var(--wp--custom--text--heading-4--letter-spacing)",
+					"textTransform": "var(--wp--custom--text--heading-4--text-transform)"
+				}
+			},
+			"core/post-title": {
+				"typography": {
+					"fontSize": "var(--wp--custom--text--heading-4--font-size)",
+					"fontWeight": "var(--wp--custom--text--heading-4--font-weight)",
+					"lineHeight": "var(--wp--custom--text--heading-4--line-height)",
+					"letterSpacing": "var(--wp--custom--text--heading-4--letter-spacing)",
+					"textTransform": "var(--wp--custom--text--heading-4--text-transform)"
+				}
+			},
+			"core/paragraph": {
+				"typography": {
+					"fontSize": "var(--wp--custom--text--text-small--font-size)",
+					"fontWeight": "var(--wp--custom--text--text-small--font-weight)",
+					"lineHeight": "var(--wp--custom--text--text-small--line-height)",
+					"letterSpacing": "var(--wp--custom--text--text-small--letter-spacing)",
+					"textTransform": "var(--wp--custom--text--text-small--text-transform)"
+				}
+			},
+			"core/post-excerpt": {
+				"typography": {
+					"fontSize": "var(--wp--custom--text--text-small--font-size)",
+					"fontWeight": "var(--wp--custom--text--text-small--font-weight)",
+					"lineHeight": "var(--wp--custom--text--text-small--line-height)",
+					"letterSpacing": "var(--wp--custom--text--text-small--letter-spacing)",
+					"textTransform": "var(--wp--custom--text--text-small--text-transform)"
+				}
+			}
+		},
+		"css": "& { overflow: hidden; height: 100%; } & .wp-block-media-text__content { padding-right: 0 !important; padding-left: 0 !important; } & .wp-block-media-text__content > :where(.wp-block-group) { padding: var(--wp--preset--spacing--40); }"
+	}
+}
