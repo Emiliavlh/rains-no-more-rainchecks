@@ -22,7 +22,7 @@ rains-no-more-rainchecks/
 ├── extendable-child-theme/   Child theme med vores tilpasninger
 │   ├── style.css             Typografi, farver og layout-justeringer
 │   ├── functions.php         Indlæser mother og child themets stylesheets
-│   └── screenshot.jpg        Preview i WordPress
+│   └── screenshot.png        Preview i WordPress (.png fordi det brugte mother-theme)
 ├── .gitignore
 └── README.md
 ```
@@ -57,6 +57,7 @@ derfor udelukket via `.gitignore`.
 
 ## Gruppe
 
-- Navn Efternavn
-- Navn Efternavn
-- Navn Efternavn
+- Emilia Hørning
+- Mathilde Damsgaard
+- Olivia Krogh
+- Signe Justsen
